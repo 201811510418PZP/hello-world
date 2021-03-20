@@ -1,0 +1,26 @@
+git config -global user.name '用户名'   设置用户名
+git config -global user.email '邮箱'       设置邮箱
+git config --list                                    查看设置
+git init			          生成一个git仓库
+git status		查看git仓库提交状态
+git add 文件名	提交到缓存区
+git commit -m '信息'		提交到本地git库
+git clone '网址' 	从网站上下载git仓库内容
+git push		提交本地git仓库内容到网站git仓库
+
+
+个人站点访问
+https://用户名.github.io
+搭建步骤
+1)创建个人站点->新建仓库〈注:仓库名必须是【用户名.github, io.】 )
+2)在仓库下新建index.html的文件即可
+
+
+Project Pages项目站点
+https://用户名.github.io/仓库名
+搭建步骤
+1）进入项目主页，点击settings
+2〉在settings页面，点击【Launch automatic page generator】来自动生成主题页面
+3）新建站点基础信息设置
+4）选择主题
+5）生成网页
